@@ -8,17 +8,17 @@
 var dateObject = new Date();
 document.getElementById("me").innerHTML = dateObject;
 </script>
-<h1 id = "greet"></h1>
+<h1 id = "greetings"></h1>
 <script>
 var time = dateObject.getHours();
 if(time<12) {
-document.getElementById("greet").innerHTML = "GOOD MORNING!";
+document.getElementById("greetings").innerHTML = "GOOD MORNING!";
 }
 else if(time>12 && time<15) {
-document.getElementById("greet").innerHTML = "GOOD AFTERNOON!";
+document.getElementById("greetings").innerHTML = "GOOD AFTERNOON!";
 }
 else{
-}document.getElementById("greet").innerHTML = "GOOD EVENING!";
+}document.getElementById("greetings").innerHTML = "GOOD EVENING!";
 
 </script>
 </body>
